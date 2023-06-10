@@ -82,7 +82,7 @@ public class UserTest {
         assertFalse(update);
     }
     @Test
-    public void TestCreateAccount()
+    public void TestCreateAccount5()
     { //Tested User with Account Stub
         int CounterBefore = User.counterAccount;
         myUser.CreateAccount("Saving", "Farida278",2373, true);

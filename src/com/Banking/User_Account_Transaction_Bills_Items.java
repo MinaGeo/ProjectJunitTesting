@@ -33,7 +33,7 @@ public class User_Account_Transaction_Bills_Items {
         System.out.println("Ending all testCases");
     }
     @Test
-    public void TestCreateAccount2()
+    public void TestCreateAccount3()
     { //Tested User with Account , Transaction , Bills , Items as stubs
         int CounterBefore = User.counterAccount;
         Account acc= myUser.CreateAccount("Saving", "Farida278",2373, false);
